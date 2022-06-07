@@ -1,9 +1,21 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+   "automehaničari" : [
+
+        {
+          "id" : 1,
+          "ime" : "Autoservis Šarić",
+          "koordinate" : "lat:44.873299,lon:13.858167",
+          "broj_telefona" : "052 502 079",
+          "vrsta" : "automehaničar"
+        },
+        {
+          "id" : 1,
+          "ime" : "Auto servis Šterpin",
+          "koordinate" : "lat:44.87440,lon:13.86162",
+          "broj_telefona" : " 098 367 360",
+          "vrsta" : "automehaničar"
+        }
+
+  ]
+    
+}
