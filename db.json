@@ -1,20 +1,91 @@
 {
-   "automehaničari" : [
+   "automehanicari" : [
 
         {
           "id" : 1,
           "ime" : "Autoservis Šarić",
           "koordinate" : "lat:44.873299,lon:13.858167",
           "broj_telefona" : "052 502 079",
-          "vrsta" : "automehaničar"
+          "vrsta" : "automehaničar",
+          "koordinate_id" : 1
         },
         {
-          "id" : 1,
+          "id" : 2,
           "ime" : "Auto servis Šterpin",
           "koordinate" : "lat:44.87440,lon:13.86162",
           "broj_telefona" : " 098 367 360",
-          "vrsta" : "automehaničar"
+          "vrsta" : "automehaničar",
+          "koordinate_id" : 2
+        },
+        {
+          "id" : 3,
+          "ime" : "Autocentar Mihalić",
+          "koordinate" : "lat:44.85779,lon:13.87539",
+          "broj_telefona" : " 091 450 5665",
+          "vrsta" : "automehaničar",
+          "koordinate_id" : 3
+        },
+        {
+          "id" : 4,
+          "ime" : "I.D Autoservis",
+          "koordinate" : "lat:44.86037,lon:13.85121",
+          "broj_telefona" : " 098 825 031",
+          "vrsta" : "automehaničar",
+          "koordinate_id" : 4
         }
+
+  ],
+  "lokacija" : [
+    {
+      "id" : 1,
+      "dio_grada" : "Veruda",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 2,
+      "dio_grada" : "Verudela",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 3,
+      "dio_grada" : "Vidikovac",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 4,
+      "dio_grada" : "Giardini",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 5,
+      "dio_grada" : "Stoja",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 6,
+      "dio_grada" : "Šijana",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 7,
+      "dio_grada" : "Veli Vrh",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 8,
+      "dio_grada" : "Monte Zaro",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 9,
+      "dio_grada" : "Kaštanjer",
+      "korisnik_lokacija" : "b"
+    },
+    {
+      "id" : 10,
+      "dio_grada" : "Monvidal",
+      "korisnik_lokacija" : "b"
+    }
 
   ]
     
