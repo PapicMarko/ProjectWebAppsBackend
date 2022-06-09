@@ -53,7 +53,6 @@
       "vrsta": "automehaničar",
       "ulica": "Ul. Petra Studenca bb"
     }
-
   ],
   "lokacija": [
     {
@@ -111,7 +110,6 @@
       "dio_grada": "Valdebek",
       "korisnik_lokacija": "b"
     }
-
   ],
   "ocjena": [
     {
@@ -134,7 +132,6 @@
       "id": 5,
       "ocjena": "5"
     }
-
   ],
   "recenzija": [
     {
@@ -145,9 +142,7 @@
       "id": 3,
       "recenzija": null
     }
-
   ],
-
   "korisnik": [
     {
       "id": 1,
@@ -161,9 +156,7 @@
       "id_": 3,
       "id_lok": "1"
     }
-
   ],
-
   "ocjena_korisnika": [
     {
       "id": 1,
@@ -180,9 +173,7 @@
       "id_rec": 4,
       "id_kor": 1
     }
-
   ],
-
   "adresa": [
     {
       "id": 1,
@@ -214,7 +205,6 @@
       "ulica": "Lošinjska ul. 2",
       "id_am": 3
     }
-
   ],
   "filteri": [
     {
@@ -229,28 +219,25 @@
       "id_lok": 10,
       "ocjena": 4
     }
-
   ],
   "termin": [
     {
-      "id_termin": 1,
+      "id": 1,
       "id_am": 2,
       "id_korisnik": 3,
-      "datum": "12.07.2022 17:00:00"
+      "datum": "12.07.2022 19:00:00"
     },
     {
-      "id_termin": 2,
+      "id": 2,
       "id_am": 5,
       "id_korisnik": 1,
       "datum": "12.07.2022 17:00:00"
     },
     {
-      "id_termin": 3,
+      "id": 3,
       "id_am": 2,
       "id_korisnik": 2,
       "datum": "15.07.2022 09:00:00"
     }
-
   ]
-  
 }
