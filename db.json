@@ -161,17 +161,20 @@
     {
       "id": 1,
       "id_rec": 1,
-      "id_kor": 2
+      "id_kor": 2,
+      "id_ocjene" : 5
     },
     {
       "id": 4,
       "id_rec": 2,
-      "id_kor": 3
+      "id_kor": 3,
+      "id_ocjene" : 4
     },
     {
       "id": 2,
       "id_rec": 4,
-      "id_kor": 1
+      "id_kor": 1,
+      "id_ocjene" : 3
     }
   ],
   "adresa": [
