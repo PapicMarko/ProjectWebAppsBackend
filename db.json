@@ -1,240 +1,256 @@
 {
-   "automehanicari" : [
-
-        {
-          "id_am" : 1,
-          "ime" : "Autoservis Šarić",
-          "koordinate" : "lat:44.873299,lon:13.858167",
-          "broj_telefona" : "052 502 079",
-          "vrsta" : "automehaničar",
-          "ulica" : "Cerneccina ul. 18",
-          "koordinate_id" : 1
-        },
-        {
-          "id_am" : 2,
-          "ime" : "Auto servis Šterpin",
-          "koordinate" : "lat:44.87440,lon:13.86162",
-          "broj_telefona" : " 098 367 360",
-          "vrsta" : "automehaničar",
-          "ulica" : "Ul. Petra Studenca bb",
-          "koordinate_id" : 2
-        },
-        {
-          "id_am" : 3,
-          "ime" : "Autocentar Mihalić",
-          "koordinate" : "lat:44.85779,lon:13.87539",
-          "broj_telefona" : " 091 450 5665",
-          "vrsta" : "automehaničar",
-          "ulica" : "Medulinska Cesta 34",
-          "koordinate_id" : 3
-        },
-        {
-          "id_am" : 4,
-          "ime" : "I.D Autoservis",
-          "koordinate" : "lat:44.86037,lon:13.85121",
-          "broj_telefona" : " 098 825 031",
-          "vrsta" : "automehaničar",
-          "ulica" : "Lošinjska ul. 2",
-          "koordinate_id" : 4
-        },
-        {
-          "id_am" : 5,
-          "ime" : "Leni Pneumatik",
-          "koordinate" : "lat:44.87200,lon:13.85526",
-          "broj_telefona" : " 099 781 4840",
-          "vrsta" : "vulkanizer",
-          "ulica" : "Štiglićeva 11",
-          "koordinate_id" : 5
-        }
-
-  ],
-  "lokacija" : [
+  "automehanicari": [
     {
-      "id_lok" : 1,
-      "dio_grada" : "Veruda",
-      "korisnik_lokacija" : "b"
+      "id": 1,
+      "ime": "Autoservis Šarić",
+      "koordinate": "lat:44.873299,lon:13.858167",
+      "broj_telefona": "052 502 079",
+      "vrsta": "automehaničar",
+      "ulica": "Cerneccina ul. 18",
+      "koordinate_id": 1
     },
     {
-      "id_lok" : 2,
-      "dio_grada" : "Verudela",
-      "korisnik_lokacija" : "b"
+      "id": 2,
+      "ime": "Auto servis Šterpin",
+      "koordinate": "lat:44.87440,lon:13.86162",
+      "broj_telefona": " 098 367 360",
+      "vrsta": "automehaničar",
+      "ulica": "Ul. Petra Studenca bb",
+      "koordinate_id": 2
     },
     {
-      "id_lok" : 3,
-      "dio_grada" : "Vidikovac",
-      "korisnik_lokacija" : "b"
+      "id": 3,
+      "ime": "Autocentar Mihalić",
+      "koordinate": "lat:44.85779,lon:13.87539",
+      "broj_telefona": " 091 450 5665",
+      "vrsta": "automehaničar",
+      "ulica": "Medulinska Cesta 34",
+      "koordinate_id": 3
     },
     {
-      "id_lok" : 4,
-      "dio_grada" : "Giardini",
-      "korisnik_lokacija" : "b"
+      "id": 4,
+      "ime": "I.D Autoservis",
+      "koordinate": "lat:44.86037,lon:13.85121",
+      "broj_telefona": " 098 825 031",
+      "vrsta": "automehaničar",
+      "ulica": "Lošinjska ul. 2",
+      "koordinate_id": 4
     },
     {
-      "id_lok" : 5,
-      "dio_grada" : "Stoja",
-      "korisnik_lokacija" : "b"
+      "id": 5,
+      "ime": "Leni Pneumatik",
+      "koordinate": "lat:44.87200,lon:13.85526",
+      "broj_telefona": " 099 781 4840",
+      "vrsta": "vulkanizer",
+      "ulica": "Štiglićeva 11",
+      "koordinate_id": 5
     },
     {
-      "id_lok" : 6,
-      "dio_grada" : "Šijana",
-      "korisnik_lokacija" : "b"
-    },
-    {
-      "id_lok" : 7,
-      "dio_grada" : "Veli Vrh",
-      "korisnik_lokacija" : "b"
-    },
-    {
-      "id_lok" : 8,
-      "dio_grada" : "Monte Zaro",
-      "korisnik_lokacija" : "b"
-    },
-    {
-      "id_lok" : 9,
-      "dio_grada" : "Kaštanjer",
-      "korisnik_lokacija" : "b"
-    },
-    {
-      "id_lok" : 10,
-      "dio_grada" : "Monvidal",
-      "korisnik_lokacija" : "b"
-    },
-    {
-      "id_lok" : 11,
-      "dio_grada" : "Valdebek",
-      "korisnik_lokacija" : "b"
+      "id": 6,
+      "ime": "Auto servis Pravdić",
+      "koordinate": "lat:44.87440,lon:13.86162",
+      "broj_telefona": " 098 367 360",
+      "vrsta": "automehaničar",
+      "ulica": "Ul. Petra Studenca bb"
     }
 
   ],
-
-  "ocjena" : [
-   
+  "lokacija": [
     {
-      "id_ocjene" : 1,
-      "ocjena" : "1"
+      "id": 1,
+      "dio_grada": "Veruda",
+      "korisnik_lokacija": "b"
     },
     {
-      "id_ocjene" : 2,
-      "ocjena" : "2"
+      "id": 2,
+      "dio_grada": "Verudela",
+      "korisnik_lokacija": "b"
     },
     {
-      "id_ocjene" : 3,
-      "ocjena" : "3"
+      "id": 3,
+      "dio_grada": "Vidikovac",
+      "korisnik_lokacija": "b"
     },
     {
-      "id_ocjene" : 4,
-      "ocjena" : "4"
+      "id": 4,
+      "dio_grada": "Giardini",
+      "korisnik_lokacija": "b"
     },
     {
-      "id_ocjene" : 5,
-      "ocjena" : "5"
-    }
-  
-  ], 
-
-  "recenzija" : [
-
-    {
-      "id_rec" : 1,
-      "recenzija" : null
+      "id": 5,
+      "dio_grada": "Stoja",
+      "korisnik_lokacija": "b"
     },
     {
-      "id_rec" : 2,
-      "recenzija" : null
+      "id": 6,
+      "dio_grada": "Šijana",
+      "korisnik_lokacija": "b"
     },
     {
-      "id_rec" : 3,
-      "recenzija" : null
+      "id": 7,
+      "dio_grada": "Veli Vrh",
+      "korisnik_lokacija": "b"
+    },
+    {
+      "id": 8,
+      "dio_grada": "Monte Zaro",
+      "korisnik_lokacija": "b"
+    },
+    {
+      "id": 9,
+      "dio_grada": "Kaštanjer",
+      "korisnik_lokacija": "b"
+    },
+    {
+      "id": 10,
+      "dio_grada": "Monvidal",
+      "korisnik_lokacija": "b"
+    },
+    {
+      "id": 11,
+      "dio_grada": "Valdebek",
+      "korisnik_lokacija": "b"
     }
 
   ],
-
-  "korisnik" : [
-
+  "ocjena": [
     {
-      "id_kor" : 1,
-      "id_lok" : "3"
+      "id": 1,
+      "ocjena": "1"
     },
     {
-      "id_kor" : 2,
-      "id_lok" : "5"
+      "id": 2,
+      "ocjena": "2"
     },
     {
-      "id_kor" : 3,
-      "id_lok" : "1"
+      "id": 3,
+      "ocjena": "3"
+    },
+    {
+      "id": 4,
+      "ocjena": "4"
+    },
+    {
+      "id": 5,
+      "ocjena": "5"
     }
 
   ],
-  
-  "ocjena_korisnika" : [
-
+  "recenzija": [
     {
-      "id_ocjene" : 1,
-      "id_rec" : 1,
-      "id_kor" : 2
+      "id": 2,
+      "recenzija": "Odlicno obavljen posao"
     },
     {
-      "id_ocjene" : 4,
-      "id_rec" : 2,
-      "id_kor" : 3
-    },
-    {
-      "id_ocjene" : 2,
-      "id_rec" : 4,
-      "id_kor" : 1
+      "id": 3,
+      "recenzija": null
     }
 
   ],
 
-  "adresa" : [
-
+  "korisnik": [
     {
-      "id_adrese" : 1,
-      "id_lok" : 10,
-      "ulica" : "Cerneccina ul. 18",
-      "id_am" : 1
+      "id": 1,
+      "id_lok": "3"
     },
     {
-      "id_adrese" : 2,
-      "id_lok" : 10,
-      "ulica" : "Ul. Petra Studenca bb",
-      "id_am" : 2
+      "id": 2,
+      "id_lok": "5"
     },
     {
-      "id_adrese" : 3,
-      "id_lok" : 11,
-      "ulica" : "Medulinska Cesta 34",
-      "id_am" : 3
-    },
-    {
-      "id_adrese" : 4,
-      "id_lok" : 11,
-      "ulica" : "Medulinska Cesta 34",
-      "id_am" : 3
-    },
-    {
-      "id_adrese" : 5,
-      "id_lok" : 8,
-      "ulica" : "Lošinjska ul. 2",
-      "id_am" : 3
+      "id_": 3,
+      "id_lok": "1"
     }
-    
+
   ],
 
-  
-  "filteri" : [
+  "ocjena_korisnika": [
     {
-      "vrsta" :"automehaničar",
-      "id_lok" : 11,
-      "ocjena" : 5
+      "id": 1,
+      "id_rec": 1,
+      "id_kor": 2
     },
     {
-      "vrsta" :"vulkanizer",
-      "id_lok" : 10,
-      "ocjena" : 4
+      "id": 4,
+      "id_rec": 2,
+      "id_kor": 3
+    },
+    {
+      "id": 2,
+      "id_rec": 4,
+      "id_kor": 1
     }
 
+  ],
+
+  "adresa": [
+    {
+      "id": 1,
+      "id_lok": 10,
+      "ulica": "Cerneccina ul. 18",
+      "id_am": 1
+    },
+    {
+      "id": 2,
+      "id_lok": 10,
+      "ulica": "Ul. Petra Studenca bb",
+      "id_am": 2
+    },
+    {
+      "id": 3,
+      "id_lok": 11,
+      "ulica": "Medulinska Cesta 34",
+      "id_am": 3
+    },
+    {
+      "id": 4,
+      "id_lok": 11,
+      "ulica": "Medulinska Cesta 34",
+      "id_am": 3
+    },
+    {
+      "id": 5,
+      "id_lok": 8,
+      "ulica": "Lošinjska ul. 2",
+      "id_am": 3
+    }
+
+  ],
+  "filteri": [
+    {
+      "id": 1,
+      "vrsta": "automehaničar",
+      "id_lok": 11,
+      "ocjena": 5
+    },
+    {
+      "id": 2,
+      "vrsta": "vulkanizer",
+      "id_lok": 10,
+      "ocjena": 4
+    }
+
+  ],
+  "termin": [
+    {
+      "id_termin": 1,
+      "id_am": 2,
+      "id_korisnik": 3,
+      "datum": "12.07.2022 17:00:00"
+    },
+    {
+      "id_termin": 2,
+      "id_am": 5,
+      "id_korisnik": 1,
+      "datum": "12.07.2022 17:00:00"
+    },
+    {
+      "id_termin": 3,
+      "id_am": 2,
+      "id_korisnik": 2,
+      "datum": "15.07.2022 09:00:00"
+    }
 
   ]
-    
+  
 }
