@@ -1,3 +1,0 @@
-Docker desktop , mongoCompass - baza podataka
-PythonFlask,, - Backend
-VueJs- frontend
