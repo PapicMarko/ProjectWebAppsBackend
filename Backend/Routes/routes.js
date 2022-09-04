@@ -41,3 +41,27 @@ router.post('/register', async (req, res) => {
       res.status(400).json({message:error.message})
     }
 })
+
+//Get all appointments Method
+router.get('/getAllAppointments', async (req, res) => {
+  try{
+    const data = await Model.find();
+    res.json(data)
+}
+catch(error){
+    res.status(500).json({message: error.message})
+}
+
+})
+
+//Get All Shops
+router.get('/getAllShops', async (req, res) => {
+  try{
+    const data = await Shops.find();
+    res.json(data)
+}
+catch(error){
+    res.status(500).json({message: error.message})
+}
+
+})
