@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const dataSchema = new mongoose.Schema({
-    shopID: {
+    shopName: {
         required: true,
         type: String
     },
