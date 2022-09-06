@@ -39,14 +39,8 @@ router.post('/register', async (req, res) => {
         lng: req.body.location.lng
       }
     })
-  const data2 = new User({
-    username: req.body.name,
-    email: req.body.email,
-    password: generatePassword()
-  })
     try {
       const dataToSave = await data.save();
-      const dataToSave2 = await data2.save();
       res.status(200).json(dataToSave)
     } catch (error) {
       res.status(400).json({message:error.message})
@@ -93,7 +87,6 @@ catch(error){
 router.get('/getAppointments/', async (req, res) => {
   try{
     let shop = await Shops.find({email:req.query.email});
-    console.log(shop[0].name)
     const data = await Model.find({shopName: shop[0].name});
     res.json(data)
 }
