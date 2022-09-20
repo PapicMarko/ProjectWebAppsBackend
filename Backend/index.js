@@ -1,10 +1,10 @@
 const express = require('express')
 const mongoose = require('mongoose');
-const routes = require('./routes/routes');
+const routes = require('./Routes/routes');
 const {DATABASE_URL} = require('./config.json')
 const bodyParser = require("body-parser");
 const app = express()
-const port = 3000
+const PORT = process.env.PORT || 3000;
 const cors = require ('cors')
 const userRoutes = require("./Routes/userRoutes"); //bring in our user routes
 
@@ -26,8 +26,8 @@ app.use(bodyParser.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', routes)
-app.use("/user", userRoutes);
+app.use("/user", userRoutes); 
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT}`)
 })

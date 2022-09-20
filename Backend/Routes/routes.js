@@ -1,5 +1,5 @@
 const express = require('express');
-const Model = require('../models/model');
+const Model = require('../Models/model');
 const Shops = require('../Models/Shops');
 const User = require('../Models/User');
 const mongoose = require('mongoose')
@@ -101,11 +101,12 @@ catch(error){
 router.patch('/update/:id',async (req, res) => {
   try {
     const id = req.params.id;
-    const updatedData = req.body;
-    const options = { new: true };
+    console.log(id)
+    console.log(req.body)
+
 
     const result = await Model.findByIdAndUpdate(
-        id, updatedData, options
+        id, req.body
     )
 
     res.send(result)
