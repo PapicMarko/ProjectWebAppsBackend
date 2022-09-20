@@ -20,6 +20,9 @@ const dataSchema = new mongoose.Schema({
     dateOfArrival:{
         type:String,
         required:true,
+    },
+    status: {
+        type:String
     }
 
 })
